@@ -12,7 +12,7 @@ This app helps to show different batting statistics of the top 20 players per st
 ''' )
 
 
-df_batting = pd.read_csv('player-batting-stats-1988-2016.csv', encoding = 'UTF8')
+df_batting = pd.read_csv('player-batting-stats-1988-2016.csv', encoding = 'latin')
 
 df_batting_top_20 = df_batting[df_batting['Rk'] < 21]
 
