@@ -4,7 +4,6 @@
 
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
 
 
 st.title( 'Top 20 Baseball Players based on Stat' )
